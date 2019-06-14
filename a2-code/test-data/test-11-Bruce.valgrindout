@@ -1,0 +1,17 @@
+==3323== Memcheck, a memory error detector
+==3323== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3323== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3323== Command: ../bl_client test-11-serv Bruce
+==3323== 
+-- Bruce JOINED --
+-- Lois JOINED --
+Bruce>> 
+==3323== 
+==3323== HEAP SUMMARY:
+==3323==     in use at exit: 0 bytes in 0 blocks
+==3323==   total heap usage: 8 allocs, 8 frees, 6,334 bytes allocated
+==3323== 
+==3323== All heap blocks were freed -- no leaks are possible
+==3323== 
+==3323== For counts of detected and suppressed errors, rerun with: -v
+==3323== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

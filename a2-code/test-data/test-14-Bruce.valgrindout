@@ -1,0 +1,23 @@
+==3706== Memcheck, a memory error detector
+==3706== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3706== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==3706== Command: ../bl_client test-14-serv Bruce
+==3706== 
+-- Bruce JOINED --
+[Bruce] : Hey! 
+[Clark] : Superman! 
+-- Lois JOINED --
+[Bruce] : Batman! 
+[Clark] : Superman! 
+[Lois] : Not again 
+[Bruce] : Vanish! 
+Bruce>> 
+==3706== 
+==3706== HEAP SUMMARY:
+==3706==     in use at exit: 0 bytes in 0 blocks
+==3706==   total heap usage: 8 allocs, 8 frees, 6,334 bytes allocated
+==3706== 
+==3706== All heap blocks were freed -- no leaks are possible
+==3706== 
+==3706== For counts of detected and suppressed errors, rerun with: -v
+==3706== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

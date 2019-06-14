@@ -1,0 +1,47 @@
+==4124== Memcheck, a memory error detector
+==4124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==4124== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==4124== Command: ../bl_client test-16-serv Bruce
+==4124== 
+-- Bruce JOINED --
+-- Clark JOINED --
+[Clark] : Superman! 
+[Bruce] : Batman! 
+[Clark] : Superman v Batman 
+[Bruce] : No: Batman v Superman 
+[Clark] : It would set up Super Friends 
+-- Lois JOINED --
+[Lois] : Gentlemen 
+[Clark] : Lois, what's up 
+[Bruce] : I am the night! 
+-- Barbara JOINED --
+[Lois] : Can anyone control him 
+[Barbara] : nope 
+[Clark] : not me, keeps throwing green rocks at me 
+[Bruce] : because... 
+[Barbara] : no no no... 
+[Bruce] : I'M BATMAN 
+[Clark] : nice 
+[Lois] : nope, nope, neeey-ooope 
+-- Lois DEPARTED --
+[Barbara] : Keep antagonizing me and watch what happens 
+[Clark] : You end up in a wheel chair? 
+[Barbara] : >:-( 
+[Bruce] : Whoa, that's insensitive 
+[Clark] : Ummm, sorry? 
+-- Clark DEPARTED --
+[Barbara] : And I thought you were rude 
+[Bruce] : I am rude 
+[Bruce] : I'm whatever this city needs me to be 
+[Barbara] : cripes 
+[Bruce] : Because I'm BATMAN 
+Bruce>> 
+==4124== 
+==4124== HEAP SUMMARY:
+==4124==     in use at exit: 0 bytes in 0 blocks
+==4124==   total heap usage: 8 allocs, 8 frees, 6,334 bytes allocated
+==4124== 
+==4124== All heap blocks were freed -- no leaks are possible
+==4124== 
+==4124== For counts of detected and suppressed errors, rerun with: -v
+==4124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
