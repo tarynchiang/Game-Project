@@ -1,0 +1,74 @@
+.div-1{
+    display: flex;
+    justify-content: center;
+}
+.div-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+#info{
+    position: absolute;
+    left:32%;    
+}
+.div-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 30px;
+    padding:50px;
+    width:75%;
+}
+.div-3 > p{
+    font-size:30px;
+}
+.div-3 > .subdiv button{
+    width:150px;
+    height:80px;
+    margin:10px 5px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color:black;
+    font-size:20px;
+}
+.div-3 > button{
+    width:400px;
+    height:80px;
+    margin:10px 5px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-color:black;
+    font-size:50px;
+}
+.subdiv{
+    margin:10px 5px;
+    display:flex;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+
+#start-game-button{
+    width:400px;
+    height:150px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    margin-top:200px;
+    font-size: 70px;
+}
+
+#restart-button{
+    position:absolute;
+    left:37%;
+    top:55%;
+    width:300px;
+    height:100px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    font-size: 30px;
+}
